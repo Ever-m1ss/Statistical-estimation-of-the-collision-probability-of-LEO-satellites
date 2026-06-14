@@ -1,0 +1,159 @@
+{
+  "ground_truth": [
+    {
+      "idx": 0,
+      "name": "0 QIANFAN-25 vs 0 QIANFAN-149",
+      "d_min_km": 14.813388848184594,
+      "is_collision": false,
+      "Pc_ref": 0.0
+    },
+    {
+      "idx": 1,
+      "name": "0 GLOBAL-34 vs 0 STRIX-4",
+      "d_min_km": 9.442712770286777,
+      "is_collision": true,
+      "Pc_ref": 3.312474914369643e-08
+    },
+    {
+      "idx": 2,
+      "name": "0 YAOGAN-39 03C vs 0 YAOGAN-39 04B",
+      "d_min_km": 5.869944903237981,
+      "is_collision": true,
+      "Pc_ref": 1.5983337710371065e-07
+    },
+    {
+      "idx": 3,
+      "name": "0 LASARSAT vs 0 CROCUBE",
+      "d_min_km": 5.29918119366537,
+      "is_collision": true,
+      "Pc_ref": 1.3298465437711004e-06
+    },
+    {
+      "idx": 4,
+      "name": "0 COSMOS 1721 vs 0 COSMOS 2129",
+      "d_min_km": 4.747818959812684,
+      "is_collision": true,
+      "Pc_ref": 5.580149678510631e-06
+    },
+    {
+      "idx": 5,
+      "name": "0 SAOCOM 1-B vs 0 BEIJING 3B",
+      "d_min_km": 1.612717387063565,
+      "is_collision": true,
+      "Pc_ref": 1.6660693069311818e-07
+    },
+    {
+      "idx": 6,
+      "name": "0 STARLINK-2081 vs 0 STARLINK-31293",
+      "d_min_km": 0.029931151034399337,
+      "is_collision": true,
+      "Pc_ref": 1.7236234550738687e-07
+    }
+  ],
+  "analysis_summary": [
+    {
+      "method": "IS",
+      "N": 200,
+      "n_H0": 100,
+      "n_H1": 600,
+      "p_hat_H0_mean": 0.0,
+      "p_hat_H0_std": 0.0,
+      "p_hat_H1_mean": 1.2405475651735408e-06,
+      "p_hat_H1_std": 3.0784941336817074e-06,
+      "auc": 0.705,
+      "power_at_5pct_fpr": 0.705,
+      "power_at_1pct_fpr": 0.705
+    },
+    {
+      "method": "IS",
+      "N": 500,
+      "n_H0": 100,
+      "n_H1": 600,
+      "p_hat_H0_mean": 0.0,
+      "p_hat_H0_std": 0.0,
+      "p_hat_H1_mean": 1.3264874092532996e-06,
+      "p_hat_H1_std": 2.977861546446232e-06,
+      "auc": 0.8533333333333334,
+      "power_at_5pct_fpr": 0.8533333333333334,
+      "power_at_1pct_fpr": 0.8533333333333334
+    },
+    {
+      "method": "IS",
+      "N": 1000,
+      "n_H0": 100,
+      "n_H1": 600,
+      "p_hat_H0_mean": 0.0,
+      "p_hat_H0_std": 0.0,
+      "p_hat_H1_mean": 1.4975583842555033e-06,
+      "p_hat_H1_std": 4.510128639322676e-06,
+      "auc": 0.9416666666666667,
+      "power_at_5pct_fpr": 0.9416666666666667,
+      "power_at_1pct_fpr": 0.9416666666666667
+    },
+    {
+      "method": "IS",
+      "N": 2000,
+      "n_H0": 100,
+      "n_H1": 600,
+      "p_hat_H0_mean": 0.0,
+      "p_hat_H0_std": 0.0,
+      "p_hat_H1_mean": 1.352006327297265e-06,
+      "p_hat_H1_std": 3.0168945294274796e-06,
+      "auc": 0.9633333333333334,
+      "power_at_5pct_fpr": 0.9633333333333334,
+      "power_at_1pct_fpr": 0.9633333333333334
+    },
+    {
+      "method": "IS",
+      "N": 5000,
+      "n_H0": 100,
+      "n_H1": 600,
+      "p_hat_H0_mean": 0.0,
+      "p_hat_H0_std": 0.0,
+      "p_hat_H1_mean": 2.1890199072000137e-06,
+      "p_hat_H1_std": 1.918699129707059e-05,
+      "auc": 0.9966666666666667,
+      "power_at_5pct_fpr": 0.9966666666666667,
+      "power_at_1pct_fpr": 0.9966666666666667
+    },
+    {
+      "method": "MC",
+      "N": 5000,
+      "n_H0": 20,
+      "n_H1": 120,
+      "p_hat_H0_mean": 0.0,
+      "p_hat_H0_std": 0.0,
+      "p_hat_H1_mean": 3.3333333333333333e-06,
+      "p_hat_H1_std": 3.651483716701107e-05,
+      "auc": 0.008333333333333333,
+      "power_at_5pct_fpr": 0.008333333333333333,
+      "power_at_1pct_fpr": 0.008333333333333333
+    },
+    {
+      "method": "MC",
+      "N": 10000,
+      "n_H0": 20,
+      "n_H1": 120,
+      "p_hat_H0_mean": 0.0,
+      "p_hat_H0_std": 0.0,
+      "p_hat_H1_mean": 8.333333333333333e-07,
+      "p_hat_H1_std": 9.128709291752768e-06,
+      "auc": 0.008333333333333333,
+      "power_at_5pct_fpr": 0.008333333333333333,
+      "power_at_1pct_fpr": 0.008333333333333333
+    },
+    {
+      "method": "MC",
+      "N": 20000,
+      "n_H0": 20,
+      "n_H1": 120,
+      "p_hat_H0_mean": 0.0,
+      "p_hat_H0_std": 0.0,
+      "p_hat_H1_mean": 1.6666666666666667e-06,
+      "p_hat_H1_std": 9.01290702255376e-06,
+      "auc": 0.03333333333333333,
+      "power_at_5pct_fpr": 0.03333333333333333,
+      "power_at_1pct_fpr": 0.03333333333333333
+    }
+  ]
+}
